@@ -35,7 +35,9 @@ console.log("Le compteur est : " + compteur); // afficher le compteur
 }
 
 // Utiliser la boucle FOR pour manipuler un tableau
-let tableauEleves = ["Fazati","Dominique Jean", "Kaniza", "Nadhurati", "Ben", "Ben Ikbal", "Dalya", "Jasmine", "Akramal", "Faiz", "Faoula", "Kyara", "Soihiroudine", "Tatyana", "Said", "Nicia", "Izad", "Ambdil", "Thouaibat"];
+let tableauEleves = ["Fazati","Dominique Jean", "Kaniza", "Nadhurati", "Ben", 
+"Ben Ikbal", "Dalya", "Jasmine", "Akramal", "Faiz", "Faoula", "Kyara", 
+"Soihiroudine", "Tatyana", "Said", "Nicia", "Izad", "Ambdil", "Thouaibat"];
 
 console.log("Taille de mon tableau : ", tableauEleves.length);
 // Récupérer les élève sans utiliser la boucle FOR
@@ -44,7 +46,7 @@ console.log(tableauEleves[1]);
 console.log(tableauEleves[2]);
 
 console.log("=== Avant la boucle FOR ===");
-for(let i = 0; i < tableauEleves.length; i++){
+for(let i = 0; i < tableauEleves.length; i++){ // i++ est le raccourci de 'i = i +1'
 
     console.log(tableauEleves[i]);
 }
