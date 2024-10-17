@@ -4,7 +4,9 @@
 let ticket = {
     nomFilm: "Anaconda Python",
     prix: 5,
-    numeroSalle: 21,
+    numeroSalle: 21
 }
+let nom = "Kaniza";
+
 // Avec console.log(), afficher le nom du film et le numéro de salle
-console.log("Bonjour Kaniza ", ticket.nomFilm, ticket.numeroSalle);
+console.log(" Bonjour ", nom, ticket.nomFilm, ticket.numeroSalle);
